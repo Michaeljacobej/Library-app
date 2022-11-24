@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/register.css">
+    <title>Register</title>
+</head>
+<body>
+    <main>
+    <div class="content">
+        <div class="left">
+            <h2>
+               Book is a Window to the world
+            </h2>
+            <div class="footer">
+               <p>photo by Mark Pan4ratte on Unsplash</p>
+            </div>
+        </div>
+        <div class="right"> 
+            <!-- <h1>cek</h1> -->
+                <div class="logo">
+                    <img src="./assets/bookshelf.png" alt="bookshelf.png" >
+                </div>
+
+            <h2>Register</h2>
+            <div class="text">
+                <p>Welcome Back, Please Register to create your account</p>
+            </div>
+            <form >
+                <div class="registerform">
+                    
+                    <div class="username">
+                        <label for="username" class="form-label"></label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="username" aria-describedby="basic-addon3" placeholder="Username" />
+                        </div>
+                        <span class="warn">Please Input Your Username!!</span>
+                    </div>
+    
+                    <!-- <br /> -->
+                    <div class="fullname">
+                        <label for="fullname" class="form-label"></label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="fullname" aria-describedby="basic-addon3" placeholder="Full Name" />
+                        </div>
+                        <span class="warn">Please Input Your Fullname!! </span>
+                    </div>
+
+
+                    <div class="email">
+                        <label for="email" class="form-label"></label>
+                        <div class="input-group">
+                            <input type="email" class="form-control" id="email" aria-describedby="basic-addon3" placeholder="Email" />
+                        </div>
+                        <span class="warn">Please Input Your Email!! </span>
+                    </div>
+ 
+
+                    <div class="password">
+                        <label for="password" class="form-label"></label>
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="password" aria-describedby="basic-addon3" placeholder="Password" />
+                        </div>
+                        <span class="warn">Please Input Your Password!!</span>
+                    </div>
+ 
+    
+
+                </div>
+
+               <!-- 2 column grid layout for inline styling -->
+            <div class="row mb-4">
+                <div class="col d-flex justify-content-center">
+                    <div class="rememberforgot">
+                        <!-- Checkbox -->
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                            <label class="form-check-label" for="form2Example31"> Remember me </label>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                        <!-- Simple link -->
+                        <div class="rememberforgot">
+                             <a href="#!">Forgot password?</a>
+                        </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col ml-4 justify-content-center">
+                    <div class="submit">     
+                        <button type="Sign-up" id="signup" class="btn btn-primary">Sign up</button>
+                        <button type="submit" id="signin" class="btn btn-primary">Login</button>
+                    </div>
+
+                </div>
+                
+            </div>
+    </form>
+        <div class="footer">
+            <p>By signing up, you agree to Book's Terms and Conditions & Privacy Policy
+            </p>
+        </div>
+        </div>
+    </div>
+</main>
+        <script src="js/register.js"></script> 
+</body>
+</html>

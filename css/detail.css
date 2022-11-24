@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+  .minibook
+  {
+    position: absolute;
+    top: 130px;
+    right: 30px;
+    
+  }
+
+  .minibook img{ 
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+  }
+  
+  /* Header/logo Title */
+  .header {
+    /* padding: 120px; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    background:  url('../assets/product-6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+
+
+  .header .editdelete{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+
+  .header .editdelete .back{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    /* margin-top: 20px; */
+    
+
+  }
+
+  .header .editdelete .textedit{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .header .editdelete .textedit a{
+    margin-right: 10px;
+    color: white;
+  }
+
+
+  .header .resize{
+    display: flex;
+    padding: 120px;
+  }
+
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 40px;
+  }
+
+  /* Column container */
+  .row {  
+
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+  }
+
+  
+  /* Sidebar/left column */
+  .row .side {
+    flex: 30%;
+    display:flex ;
+    flex-direction: column-reverse;
+    background-color: white;
+    /* margin-right: 0px; */
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .row .main {   
+    /* flex: 70%; */
+    /* background-color: white; */
+    flex: 12;
+    margin-left: 80px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+      
+  }
+  
+
+  .row .main .novel{
+    /* margin-left: 200px; */
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    /* margin-right: 40px;
+    margin-bottom: 30px; */
+}
+.row .main .tittle{
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+}
+  .row .main .tittle .book{
+    
+    display: flex;
+    flex-direction: column;
+    flex: 10;
+  }
+
+  .row .main .tittle .available{
+    /* margin-left: 450px; */
+    /* margin-top: 3px; */
+    display: flex;
+    flex-direction: column;
+    color: greenyellow;
+    
+  }
+
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+
+.row .main h5{
+    margin-bottom: 40px
+}
+
+.row .side .borrow{
+    /* margin-left: 200px; */
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+  color: black;
+  background-color: white;
+}
+
+
+.urlimage{
+  display: flex;
+  flex-direction: row;
+}
+
+.urlimage h5{
+  flex-direction: column;  
+  display: flex;
+  margin-top: 15px;
+  color: black;
+  /* flex: 1; */
+}
+
+.urlimage .left{
+  width: 75%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.urlimage .left .input-group
+{
+  width: 100%;
+  margin-left: 110px;
+}
+
+.tittle
+{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tittle h5{
+  flex-direction: column;  
+  display: flex;
+  margin-top: 15px;
+  color: black;
+  /* flex: 1; */
+}
+
+.tittle .left{
+  width: 75%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.tittle .left .input-group
+{
+
+  width: 100%;
+  margin-left: 155px;
+
+}
+
+.description
+{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.description h5{
+  flex-direction: column;  
+  display: flex;
+  margin-top: 15px;
+  color: black;
+  /* flex: 1; */
+}
+
+.description .left{
+  width: 75%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.description .left .input-group
+{
+
+  width: 100%;
+  margin-left: 95px;
+  
+}
+
+.modal-header{
+  border: white;
+}
+
+.modal-footer{
+  margin-right: 80px;
+  border: white;
+}
+
+.submit .btn{
+  background-color: transparent;
+  border: none;
+
+  margin-right: 10px;
+}
+
+.deleteicon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.deleteicon h5{
+color: black;
+}
+
+.deletetext
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.deletetext h5{
+  color: black;
+}
+
+/* .circle {
+  width: 60px;
+  height: 60px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+  color: black;
+  /* background-color: white; */
+/* } 
+ */
+
+ .deleteicon i{
+  height: 100%;
+    color: chartreuse;
+ }
